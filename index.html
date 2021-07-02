@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Mehan</title>
+    <link rel="stylesheet" href=" css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+<body>
+    <nav>
+        <ul>
+            <li onMouseOver="nav_highlight(this);" onMouseOut="nav_dishighlight(this);"><a href="#">Home </a></li>
+            <li onMouseOver="nav_highlight(this);" onMouseOut="nav_dishighlight(this);"><a href="#projects_section"
+                    onMouseOver="nav_highlight('2');">Projects </a></li>
+            <li onMouseOver="nav_highlight(this);" onMouseOut="nav_dishighlight(this);"><a href="#b4about"
+                    onMouseOver="nav_highlight('3');">About</a></li>
+            <li onMouseOver="nav_highlight(this);" onMouseOut="nav_dishighlight(this);"><a href="#contact"
+                    onMouseOver="nav_highlight('4');">Contact</a></li>
+            <li onMouseOver="nav_highlight(this);" onMouseOut="nav_dishighlight(this);"><a href="html/assignment.html"
+                    onMouseOver="nav_highlight('5');">Assignment specific</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="home">
+        <div id="container">
+            <div id="hello">
+                Hullo!
+            </div>
+            <div id="intro">
+                I'm Yash, a CS freshman at IIIT H.
+                Here is my <a href="#">Resume</a>, <a href="#">notes</a> and projects below.
+            </div>
+            <div id="changing_text"> </div>
+
+
+        </div>
+    </section>
+    <!--projects section begins-->
+    <section id="projects_section">
+        <div class="projects_div" id="magglyde">
+
+            <img class="projects_img" src=" img/magglyde.png" align="left">
+            <p class="projects_desc">
+            <h1 class="projects_h1">MagGlyde</h1>
+            <h2 class="projects_h2">An autonomous aircraft takeoff and landing system, which enables them to takeoff and
+                land even in strong winds, slippery runways, low visibility. <br>Pitched in Kennedy Space Center,
+                FL.<br> Patent pending<br> Nov 2017 - Apr 2018</h2>
+            </p>
+        </div>
+
+        <div class="projects_div" id="versatile">
+
+            <img class="projects_img" src=" img/versatile.png" align="left" style="width: 40vw; margin-right: 7vw;">
+            <p class="projects_desc">
+            <h1 class="projects_h1">VersaTILE</h1>
+            </p>
+            <h2 class="projects_h2">A quick and easy particle detector. Determines the composition of a stream of
+                particles from CERN's beamline.<br>Made as a project for CERN's Beamline4Schools challenge.<br></h2>
+        </div>
+    </section>
+    <div id="b4about"><br><br></div>
+
+    <section id="about">
+        <div class="div_about" style="text-align: center;">
+            <h2>
+                <br>
+                Nice to see you! I'm a nineteen year old freshman in CS, who is always looking for excuses to
+                expand my horizons. <br> <br>
+                I'm very keen on Quantum computing, and AI, algorithms and math, and am eager to explore and challenge
+                the world around me!
+                <br>
+                <ul>
+                    <li id="skill">C/C++</li>
+                    <li id="skill">Python</li>
+                    <li id="skill">x86asm</li>
+                    <li id="skill">Bash</li>
+                    <li id="skill">HTML/CSS</li>
+                    <li id="skill">Javascript</li>
+                    <li id="skill">Git</li>
+                    <li id="skill">Matlab</li>
+
+                </ul>
+                <!-- <a href = "#">Endorse me</a> <br><br> -->
+                I speak 4 languages, all with varying levels of proficiency. Am very much into music. Sometimes I sing
+                my heart out, sometimes I'll strum the strings on my guitar.
+                <br><br>
+                I'm a bit withdrawn, but I love making friends, sharing experiences and learning from people along the
+                way :) I'd love to get to know you and work with you.
+                <br><br>
+                Hit me up if you have an interesting project or an idea, we'll make it big!
+                <br><br>
+                <!-- <br><br> &lt; Some of my photos -->
+
+            </h2>
+        </div>
+        <!-- image carousel -->
+        <div class="carousel-container">
+            <i class="fas fa-chevron-left" id="prevbutton"></i>
+            <i class="fas fa-chevron-right" id="nextbutton"></i>
+            <div class="carousel-slide">
+                <img class="carousel-image" id="lastimgclone" src=" img/memorial.jpg">
+                <img class="carousel-image" src=" img/nasa.jpg">
+                <img class="carousel-image" src=" img/my_photo_proportionate.png">
+                <img class="carousel-image" src=" img/spblec.jpg">
+                <img class="carousel-image" src=" img/kronstadt.jpg">
+                <img class="carousel-image" src=" img/piano.jpg">
+                <img class="carousel-image" src=" img/memorial.jpg">
+                <img class="carousel-image" id="firstimgclone" src=" img/nasa.jpg">
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 style="font-size: 3rem;">Contact</h1>
+        <div class="contact-info-containter">
+            <a class="contact-a" href="https://github.com/yash4242"><i class="fab fa-github"></i>yash4242</a>
+            <a class="contact-a" href="https://codeforces.com/profile/yash4242"><i class="fas fa-terminal"></i>yash4242</a>
+            <a class="contact-a" href=""><i
+                    class="fas fa-at"></i>[firstname][period][surname_intial]@research.iiit.ac.in</a>
+            <a class="contact-a" href="https://www.linkedin.com/in/yash-mehan-14800b159/"><i
+                    class="fab fa-linkedin"></i>Yash Mehan</a>
+        </div>
+    </section>
+    <footer>
+        <h3>Made with <i class="fas fa-heart"></i> by Yash</h3>
+        उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत। <br>
+        कठोपनिषद्: 1-3-14
+    </footer>
+    <script src=" js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="../css/assignment.css">
+
+</head>
+
+<body background="../img/background.jpg" style="background-repeat: no-repeat; background-size: cover;">
+    <img id="slideshow" onClick="changeimg()"
+        src="https://media1.tenor.com/images/8ab88b79885ab587f84cbdfbc3b87835/tenor.gif?itemid=15917800">
+    <table class="assi">
+        <tr>
+            <td rowspan="2" colspan="2">Tall boi</td>
+            <td>
+                look at the cute cattos above :3
+            </td>
+            <td>externally linked, click to change</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">fat boi</td>
+        </tr>
+    </table>
+
+    <h1>Skill</h1>
+    <input type="text" name="name" id="id_name" placeholder="Your Name" required>
+    <input type="text" name="skill" id="id_skill" placeholder="skill" required>
+    <select name="level" id="id_level" required>
+        <option value="none" selected disabled hidden> Select level </option>
+        <option value="bond">Bond</option>
+        <option value="superbond">Super Bond</option>
+        <option value="ultrabond">Ultra Bond</option>
+        <option value="pro">Pro</option>
+    </select>
+    <br><br>
+    <button onClick="submitfunc()">Submit</button>
+    <br>
+    <table class="assi" id="skill_table">
+        <tr>
+            <td>Name</td>
+            <td>Skill</td>
+            <td>Level</td>
+        </tr>
+    </table>
+
+    <script type="text/javascript" src="../js/assignment.js"></script>
+</body>
+
+</html>
