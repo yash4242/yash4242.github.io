@@ -2,7 +2,7 @@
     document.getElementsByTagName("nav")[0].style.position = "fixed";
 
 const sentences = [
-    'gtodiyauh👍',
+    'gtodiayuh👍',
     'नमस्ते!',
     'здравствуйте!',
     'Hallo!',
